@@ -190,7 +190,7 @@ document.addEventListener("DOMContentLoaded", function () {
     })
 
     gsap.from("#page7 #left3",{
-        x:100,
+        x:-100,
         opacity:0,
         scrollTrigger:{
             trigger:"#page7",
@@ -201,7 +201,7 @@ document.addEventListener("DOMContentLoaded", function () {
     })
 
     gsap.from("#page9 #left5",{
-        x:100,
+        x:-100,
         opacity:0,
         scrollTrigger:{
             trigger:"#page9",
